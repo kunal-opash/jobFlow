@@ -1,0 +1,725 @@
+/* 1024px */
+@media (min-width: 1024px) {
+  .header {
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  #img {
+    max-height: 4rem;
+  }
+
+  .navbar {
+    width: 60%;
+    margin: auto;
+  }
+
+  .toggle-btn {
+    display: none;
+
+  }
+
+  .content {
+    width: 50%;
+  }
+
+  .content-heading {
+    font-size: 3.5rem;
+  }
+
+  .content-paragraph {
+    width: 60%;
+    margin: auto;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .all-content {
+    width: 40%;
+    margin-top: -5rem;
+  }
+
+  .box-img {
+    text-align: right;
+  }
+
+  #box-img {
+    text-align: right;
+    margin-top: -10rem;
+    width: 90%;
+  }
+
+  .content-box {
+    width: 80%;
+    margin: auto;
+    top: -10;
+  }
+
+  .process-paragraph {
+    font-size: 2.5rem;
+  }
+
+  .progress-heading {
+    width: 40%;
+  }
+
+  .process-img {
+    text-align: left;
+  }
+
+  #process-img {
+    text-align: right;
+    width: 80%;
+  }
+
+  .process {
+    width: 80%;
+    margin: auto;
+  }
+
+  .pipeline-heading {
+    font-size: 2.5rem;
+  }
+
+  .content-pipelin {
+    width: 40%;
+  }
+
+  .pipeline-img {
+    text-align: right;
+  }
+
+  #pipeline-img {
+    width: 80%;
+  }
+
+  .pipeline {
+    width: 80%;
+    margin: auto;
+  }
+
+  .dashboard-heading {
+    font-size: 2.5rem;
+  }
+
+  .content-dashboard {
+    width: 40%;
+  }
+
+  .dashboard-img {
+    text-align: left;
+  }
+
+  #dashboard-img {
+    width: 80%;
+  }
+
+  .dashboard {
+    width: 80%;
+    margin: auto;
+  }
+
+  .applicant-heading {
+    font-size: 2.3rem;
+  }
+
+  .task {
+    width: 80%;
+    justify-content: space-evenly;
+  }
+
+  .plan {
+    width: 70%;
+  }
+
+  .trial {
+    width: 70%;
+  }
+
+  .footer {
+    width: 70%;
+  }
+
+  .footer-link {
+    margin: auto;
+  }
+}
+
+/* 481px to 1023px */
+@media (min-width: 481px) and (max-width: 1023px) {
+  .navbar {
+    display: none;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  #img {
+    max-height: 3rem;
+  }
+
+  .header {
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .content {
+    width: 80%;
+    margin-top: 1.5rem;
+  }
+
+  .content-heading {
+    font-size: 3rem;
+  }
+
+  .content-btn1 {
+    width: 60%;
+    margin: auto;
+  }
+
+  #input-btn {
+    padding: 0.6rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .main-content {
+    font-size: 0.85rem;
+  }
+
+  .all-content {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .box-img {
+    width: 100%;
+  }
+
+  #box-img {
+    width: 90%;
+    margin-top: -10rem;
+  }
+
+  .content-box {
+    width: 80%;
+    margin: auto;
+    flex-direction: column-reverse;
+  }
+
+  .process-paragraph {
+    font-size: 2rem;
+  }
+
+  .process-paragraph1 {
+    font-size: 0.85rem;
+  }
+
+  .progress-heading {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .process-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  #process-img {
+    width: 70%;
+  }
+
+  .process {
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .pipeline-heading {
+    font-size: 2rem;
+  }
+
+  .pipeline-paragraph {
+    font-size: 0.85rem;
+  }
+
+  .content-pipeline {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .pipeline-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  #pipeline-img {
+    width: 70%;
+  }
+
+  .pipeline {
+    width: 80%;
+    margin: auto;
+    flex-direction: column-reverse;
+  }
+
+  .pipeline-img {
+    background-position: center;
+  }
+
+  .dashboard-heading {
+    font-size: 2rem;
+  }
+
+  .dashboard-paragraph {
+    font-size: 0.85rem;
+  }
+
+  .content-dashboard {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .dashboard-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  #dashboard-img {
+    width: 70%;
+  }
+
+  .dashboard {
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .applicant-heading {
+    font-size: 2rem;
+  }
+
+  .task {
+    width: 97%;
+    justify-content: space-evenly;
+  }
+
+  #workflow {
+    margin-bottom: -1.6rem;
+    height: 2.5rem;
+  }
+
+  #teams {
+    margin-bottom: -1.6rem;
+    height: 2.5rem;
+  }
+
+  #data {
+    margin-bottom: -1.6rem;
+    height: 2.5rem;
+  }
+
+  .plan {
+    width: 90%;
+  }
+
+  #content-text1 {
+    height: 1.5rem;
+  }
+
+  .unlimited-content {
+    font-size: 0.9rem;
+  }
+
+  .plan-heading {
+    font-size: 1.8rem;
+  }
+
+  .first-text {
+    font-size: 0.9rem;
+  }
+
+  #first-img1 {
+    height: 1.3rem;
+  }
+
+  #first-img2 {
+    height: 1rem;
+    left: -2.4rem;
+  }
+
+  .price p {
+    font-size: 2rem;
+  }
+
+  .price sup {
+    font-size: 1.2rem;
+  }
+
+  .price sub {
+    font-size: 0.8rem;
+  }
+
+  #first-img2 {
+    position: relative;
+    left: -1.2rem;
+    top: 0.1rem;
+    height: 1rem;
+  }
+
+  .trial {
+    width: 90%;
+  }
+
+  .footer {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+
+  }
+
+  .footer-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-content {
+    align-items: center;
+    margin: auto;
+
+  }
+
+  .footer-link {
+    margin: auto;
+
+  }
+
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .navbar {
+    display: none;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  #img {
+    max-height: 3rem;
+  }
+
+  .header {
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .content {
+    width: 95%;
+    margin-top: 1rem;
+  }
+
+  .content-heading {
+    font-size: 2rem;
+  }
+
+  .content-btn1 {
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .content-paragraph {
+    font-size: 1rem;
+  }
+
+  #input-btn {
+    margin: 0.5rem 0;
+  }
+
+  #content-img {
+    margin: 0.5rem 0;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .main-content {
+    font-size: 0.7rem;
+  }
+
+  .all-content {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .box-img {
+    width: 100%;
+  }
+
+  #box-img {
+    width: 90%;
+    margin-top: -10rem;
+  }
+
+  .content-box {
+    width: 80%;
+    margin: auto;
+    flex-direction: column-reverse;
+  }
+
+  .process-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .process-paragraph1 {
+    font-size: 0.7rem;
+  }
+
+  .progress-heading {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .process-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  #process-img {
+    width: 70%;
+  }
+
+  .process {
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .pipeline-heading {
+    font-size: 1.5rem;
+  }
+
+  .pipeline-paragraph {
+    font-size: 0.7rem;
+  }
+
+  .content-pipeline {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .pipeline-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  #pipeline-img {
+    width: 70%;
+  }
+
+  .pipeline {
+    width: 80%;
+    margin: auto;
+    flex-direction: column-reverse;
+  }
+
+  .dashboard-heading {
+    font-size: 1.5rem;
+  }
+
+  .dashboard-paragraph {
+    font-size: 0.7rem;
+  }
+
+  .content-dashboard {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .dashboard-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  #dashboard-img {
+    width: 70%;
+  }
+
+  .dashboard {
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .task {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #workflow {
+    margin-bottom: -1.6rem;
+    height: 2.5rem;
+  }
+
+  #teams {
+    margin-bottom: -1.6rem;
+    height: 2.5rem;
+  }
+
+  #data {
+    margin-bottom: -1.6rem;
+    height: 2.5rem;
+  }
+
+  .workflow {
+    margin-bottom: 2.5rem;
+    width: 60%;
+  }
+
+  .teams {
+    margin-bottom: 2.5rem;
+    width: 60%;
+  }
+
+  .data {
+    margin-bottom: 2.5rem;
+    width: 60%;
+  }
+
+  .applicant-heading {
+    font-size: 1.5rem;
+  }
+
+  .plan {
+    width: 90%;
+  }
+
+  #content-text1 {
+    height: 1.5rem;
+  }
+
+  .unlimited-content {
+    font-size: 0.9rem;
+    flex-direction: column;
+  }
+
+  .plan-heading {
+    font-size: 1.4rem;
+  }
+
+  .first-text {
+    font-size: 0.9rem;
+  }
+
+  #first-img1 {
+    height: 1.3rem;
+  }
+
+  .price p {
+    font-size: 2rem;
+  }
+
+  .price sup {
+    font-size: 1.2rem;
+  }
+
+  .price sub {
+    font-size: 0.8rem;
+  }
+
+  .unlimited-content2-text1 {
+    margin-top: 0;
+  }
+
+  #first-img2 {
+    position: relative;
+    left: -1.2rem;
+    top: 0.15rem;
+    height: 1rem;
+  }
+
+  .trial {
+    width: 90%;
+  }
+
+  .credit-card {
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  .free-trial {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .footer-heading {
+    display: flex;
+
+  }
+}
+
+/* 481px to 554px */
+@media (min-width: 481px) and (max-width: 554px) {
+  #workflow {
+    margin-bottom: -2.8rem;
+  }
+
+}
+
+/* 508px to 554px */
+@media (min-width: 508px) and (max-width: 554px) {
+  #data {
+    margin-bottom: -2.8rem;
+  }
+}
+
+/* 333px */
+@media (max-width:333px) {
+  #first-img2 {
+    position: relative;
+    left: 0.3rem;
+    top: -1.15rem;
+    height: 1rem;
+  }
+
+}
+
+@media (min-width:368px){
+  .footer{
+    width: auto;
+  }
+
+}
+
+@media (min-width:160px) and (max-width:330px) {
+
+  .footer-content {
+    /* display: flex; */
+    align-items: center;
+    margin: auto ;
+  }
+
+
+  .footer-link {
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 26px;
+  }
+
+  .footer-link1 {
+    margin: auto;
+  }
+}

@@ -1,0 +1,625 @@
+body {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.07rem;
+}
+
+.main-container {
+  background-image: url("../img/background.png");
+  background-repeat: round;
+  background-size: cover;
+  width: 100%;
+
+}
+
+.last-container {
+  background-image: url("../img/lastbackground.png");
+  background-repeat: round;
+  background-size: cover;
+  width: 100%;
+}
+
+.header {
+  margin: auto;
+  display: flex;
+  font-family: "Sofia", cursive;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+}
+
+#or {
+  font-weight: bold;
+}
+
+.nav-button {
+  display: flex;
+  max-height: 4.5rem;
+  min-height: 2.5rem;
+  height: fit-content;
+  margin: auto;
+}
+
+#nav-button {
+  background: linear-gradient(117.14deg, #f2ab1d 1.29%, #d44095 97.9%);
+  box-shadow: 0px 15px 60px rgba(219, 87, 124, 0.29);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 12%;
+  font-size: 15px;
+}
+
+#nav-button:hover {
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg, #f2ab1d, #d44095, #f2831d, #e81f92);
+  transition: all .8s ease-in-out;
+  background-position: 100% 0;
+  cursor: pointer;
+}
+
+.content {
+  margin: 4rem auto auto auto;
+  text-align: center;
+}
+
+.content-heading {
+  font-family: "Sofia", cursive;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+
+.content-paragraph {
+  font-family: "Sofia", cursive;
+  font-size: 1.3rem;
+}
+
+.content-btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15rem;
+}
+
+#input-btn {
+  /* height: 2.3rem; */
+  margin-right: 0.5rem;
+  background: linear-gradient(117.14deg, #f2ab1d 1.29%, #d44095 97.9%);
+  box-shadow: 0px 15px 60px rgba(219, 87, 124, 0.29);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+#input-btn:hover {
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg, #f2ab1d, #d44095, #f2831d, #e81f92);
+  transition: all .8s ease-in-out;
+  background-position: 100% 0;
+}
+
+#or {
+  margin: 0 0.5rem;
+}
+
+#content-img {
+  margin-left: 0.5rem;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 15px 60px rgba(219, 87, 124, 0.29));
+  border-radius: 5px;
+}
+
+.content-btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.content-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.heading {
+  font-family: "Sofia", cursive;
+  font-family: sans-serif;
+}
+
+.main-content {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+.btn-content {
+  background: linear-gradient(117.14deg, #f2ab1d 1.29%, #d44095 97.9%);
+  box-shadow: 0px 15px 60px rgba(219, 87, 124, 0.29);
+  border-radius: 5px;
+  height: 1.5rem;
+  color: white;
+  border: none;
+  padding: 5px 6%;
+  height: 3rem;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+
+.btn-content:hover {
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg, #f2ab1d, #d44095, #f2831d, #e81f92);
+  transition: all .8s ease-in-out;
+  background-position: 100% 0;
+}
+
+.process {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.process-paragraph {
+  font-family: "Sofia", cursive;
+  font-family: sans-serif;
+}
+
+.process-paragraph1 {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+.progress-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#process-btn {
+  background: linear-gradient(117.14deg, #f2ab1d 1.29%, #d44095 97.9%);
+  box-shadow: 0px 15px 60px rgba(219, 87, 124, 0.29);
+  border-radius: 5px;
+  height: 1.5rem;
+  color: white;
+  border: none;
+  padding: 5px 6%;
+  height: 3rem;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+
+#process-btn:hover {
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg, #f2ab1d, #d44095, #f2831d, #e81f92);
+  transition: all .8s ease-in-out;
+  background-position: 100% 0;
+}
+
+.pipeline {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-pipeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pipeline-heading {
+  font-family: "Sofia", cursive;
+  font-family: sans-serif;
+}
+
+.pipeline-paragraph {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+
+#pipeline-btn {
+  background: linear-gradient(117.14deg, #f2ab1d 1.29%, #d44095 97.9%);
+  box-shadow: 0px 15px 60px rgba(219, 87, 124, 0.29);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 5px 4%;
+  cursor: pointer;
+  height: 3rem;
+  font-size: 18px;
+
+}
+
+#pipeline-btn:hover {
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg, #f2ab1d, #d44095, #f2831d, #e81f92);
+  transition: all .8s ease-in-out;
+  background-position: 100% 0;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dashboard-heading {
+  font-family: "Sofia", cursive;
+  font-family: sans-serif;
+}
+
+.dashboard-paragraph {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+
+#dashboard-btn {
+  background: linear-gradient(117.14deg, #f2ab1d 1.29%, #d44095 97.9%);
+  box-shadow: 0px 15px 60px rgba(219, 87, 124, 0.29);
+  border-radius: 5px;
+  height: 1.5rem;
+  color: white;
+  border: none;
+  padding: 5px 6%;
+  cursor: pointer;
+  height: 3rem;
+  font-size: 18px;
+
+}
+
+#dashboard-btn:hover {
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg, #f2ab1d, #d44095, #f2831d, #e81f92);
+  transition: all .8s ease-in-out;
+  background-position: 100% 0;
+}
+
+
+.applicant {
+  font-family: "Roboto", sans-serif;
+}
+
+.content-applicant {
+  text-align: center;
+  font-size: 18px;
+}
+
+.applicant-heading {
+  font-family: "Sofia", cursive;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+
+.applicant-heading1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.task {
+  display: flex;
+  font-family: "Sofia", cursive;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  margin: 3rem auto 4rem auto;
+}
+
+.workflow {
+  width: 25%;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #ffc7e7;
+  box-shadow: 0px 15px 60px rgba(240, 164, 38, 0.07);
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.teams {
+  border: 1px solid black;
+  width: 25%;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #ffc7e7;
+  box-shadow: 0px 15px 60px rgba(240, 164, 38, 0.07);
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.data {
+  border: 1px solid black;
+  width: 25%;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #ffc7e7;
+  box-shadow: 0px 15px 60px rgba(240, 164, 38, 0.07);
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#workflow {
+  margin-bottom: -2.2rem;
+  height: 4rem;
+}
+
+#teams {
+  margin-bottom: -2.2rem;
+  height: 4rem;
+}
+
+#data {
+  margin-bottom: -2.2rem;
+  height: 4rem;
+}
+
+.plan {
+  margin: auto;
+  background: linear-gradient(322.22deg, #f2ab1d 2.9%, #d44095 98.98%);
+  border-radius: 15px;
+  color: white;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+}
+
+#first-img2 {
+  position: relative;
+  left: -1.8rem;
+  top: 0.15rem;
+  height: 1.5rem;
+}
+
+.unlimited-plan {
+  width: 90%;
+  margin: auto;
+}
+
+.payment-plan {
+  width: 90%;
+  margin: auto;
+}
+
+.plan-heading {
+  font-family: "Sofia", cursive;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 2.5rem;
+}
+
+.first-btn {
+  margin: auto 0;
+  display: flex;
+}
+
+.first-text {
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  padding-right: 1rem;
+  font-family: "Sofia", cursive;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 1.2rem;
+}
+
+.first-img {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+/* .c7-first-text p {
+  margin: 1.5rem 0;
+} */
+
+.price p {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Sofia", cursive;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  margin: 2rem 0;
+}
+
+.price sup {
+  font-size: 1.6rem;
+
+}
+
+.price sub {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.price sub {
+  font-family: "Sofia", cursive;
+}
+
+.unlimited-content {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-between;
+}
+
+.unlimited-content-text1 {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.unlimited-content-text2 {
+  margin: 1rem 0;
+  display: flex;
+}
+
+.unlimited-content-text3 {
+  margin: 1rem 0;
+  display: flex;
+}
+
+#content-text1 {
+  height: 2rem;
+  cursor: pointer;
+}
+
+
+.unlimited-content-text1 p {
+  margin: auto;
+  margin-left: 1rem;
+}
+
+.unlimited-content-text2 p {
+  margin: auto;
+  margin-left: 1rem;
+}
+
+.unlimited-content-text3 p {
+  margin: auto;
+  margin-left: 1rem;
+}
+
+.unlimited-content2-text1 {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.unlimited-content2-text2 {
+  margin: 1rem 0;
+  display: flex;
+}
+
+.unlimited-content2-text3 {
+  margin: 1rem 0;
+  display: flex;
+}
+
+#content-text2 {
+  height: 2rem;
+}
+
+.unlimited-content2-text1 p {
+  margin: auto;
+  margin-left: 1rem;
+}
+
+.unlimited-content2-text2 p {
+  margin: auto;
+  margin-left: 1rem;
+}
+
+.unlimited-content2-text3 p {
+  margin: auto;
+  margin-left: 1rem;
+}
+
+.trial {
+  margin: 4rem auto;
+  background: #fdf4e9;
+  border-radius: 12px;
+  font-family: "Sofia Pro";
+  font-weight: bold;
+}
+
+.credit-card {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#free-trial-btn {
+  background: linear-gradient(117.14deg, #f2ab1d 1.29%, #d44095 97.9%);
+  box-shadow: 0px 19.8168px 79.2674px rgba(219, 87, 124, 0.29);
+  border-radius: 6.60561px;
+  border: none;
+  color: white;
+  padding: 14px 10px;
+  margin: auto 0;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+
+#free-trial-btn:hover {
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg, #f2ab1d, #d44095, #f2831d, #e81f92);
+  transition: all .8s ease-in-out;
+  background-position: 100% 0;
+}
+
+.free-trial {
+  font-size: 1.5rem;
+  letter-spacing: 0.01rem;
+}
+
+#free-trial-btn {
+  margin: auto 0;
+}
+
+.footer {
+  margin: auto;
+  display: flex;
+}
+
+.footer-heading {
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  margin: auto 15%;
+}
+
+.icon2 {
+  margin-top: 27px;
+}
+
+.footer-link {
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: right;
+  color: #000000;
+  margin:auto ;
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-link1 {
+  text-decoration: none;
+  color: #000000;
+
+}
